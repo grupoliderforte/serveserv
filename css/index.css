@@ -1,0 +1,126 @@
+.bg-color {
+	background-color: #850606;
+    color: #fff;
+    transition: .5s;
+}
+
+.btn-color {
+	background-color: #850606;
+    color: #fff;
+    transition: .5s;
+}
+
+.btn-color:hover {
+	background-color: #fff;
+    color: #850606;
+    border: 1px solid #850606
+}
+
+
+.header {
+	padding: 2rem 0;
+}
+
+.logo {
+	height: 5rem;
+}
+
+@media screen and (min-width: 600px) {
+	.logo {
+		height: 5rem;
+	}
+}
+
+.jumbotron {
+	margin-top: 1rem;
+	overflow: hidden;
+}
+
+.bg-img {
+	background-image: linear-gradient(to bottom, #222, #000);
+	background-attachment: scroll;
+}
+
+@media screen and (min-width: 600px) {
+	.bg-img {
+		background-image: url(../img/bg-img2.jpg);
+		background-repeat: no-repeat;
+		background-position: bottom;
+		background-attachment: fixed;
+        background-size: cover;
+        filter: grayscale(100%);
+	}
+}
+
+.bg-img {
+	min-height: 100%;
+}
+
+.display-4 {
+	font-size: 2rem;
+	font-weight: 300;
+	line-height: 1.2;
+}
+
+@media screen and (min-width: 600px) {
+	.display-4 {
+		font-size: 3.5rem;
+	}
+}
+
+.banner-content {
+	text-transform: uppercase;
+	text-shadow: 2px 2px 3px black;
+}
+
+.lead{
+    text-shadow: 2px 2px 3px black
+}
+
+.banner-logo {
+	position: relative;
+	width: 7rem;
+}
+
+@media screen and (min-width: 600px) {
+	.banner-logo {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+}
+
+.marketing .marketing-item {
+	margin: 2em 0;
+}
+
+.contact-header {
+	font-size: 150%;
+}
+
+.fa{
+    color: #850606;
+}
+
+.fa-fw{
+    margin-right: 1rem;
+}
+
+.map{
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer{
+    margin-top: 3rem;
+}
+
+.page-footer .copy-link{
+    color: #fff;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.copy-link:hover{
+    color: black;
+}

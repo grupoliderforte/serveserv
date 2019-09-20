@@ -1,0 +1,10 @@
+body {
+	margin: 0;
+    font-family: 'Bree Serif', serif;
+    font-size: 1rem;
+    background-color: #fffff1;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
